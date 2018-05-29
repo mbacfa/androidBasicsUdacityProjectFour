@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.androidbasicsudacityprojectfour.MainActivity">
+
+    <TextView
+        android:id="@+id/country"
+        style="@style/CategoryStyle"
+        android:text="@string/genre_country" />
+
+    <TextView
+        android:id="@+id/rock"
+        style="@style/CategoryStyle"
+        android:text="@string/genre_rock" />
+
+    <TextView
+        android:id="@+id/pop"
+        style="@style/CategoryStyle"
+        android:text="@string/genre_pop" />
+
+    <TextView
+        android:id="@+id/folk"
+        style="@style/CategoryStyle"
+        android:text="@string/genre_folk" />
+
+</LinearLayout>
