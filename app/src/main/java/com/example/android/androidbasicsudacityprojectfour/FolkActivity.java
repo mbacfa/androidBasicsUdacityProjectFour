@@ -14,18 +14,18 @@ public class FolkActivity extends AppCompatActivity {
         setContentView(R.layout.song_list);
         //Need to replace this with a loop and to put all names in strings
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("PerformerPlaceholder1","NamePlaceholder1"));
-        songs.add(new Song("PerformerPlaceholder2","NamePlaceholder2"));
-        songs.add(new Song("PerformerPlaceholder3","NamePlaceholder3"));
-        songs.add(new Song("PerformerPlaceholder4","NamePlaceholder4"));
-        songs.add(new Song("PerformerPlaceholder5","NamePlaceholder5"));
-        songs.add(new Song("PerformerPlaceholder6","NamePlaceholder6"));
-        songs.add(new Song("PerformerPlaceholder7","NamePlaceholder7"));
-        songs.add(new Song("PerformerPlaceholder8","NamePlaceholder8"));
-        songs.add(new Song("PerformerPlaceholder9","NamePlaceholder9"));
+        songs.add(new Song("PerformerPlaceholder1", "NamePlaceholder1"));
+        songs.add(new Song("PerformerPlaceholder2", "NamePlaceholder2"));
+        songs.add(new Song("PerformerPlaceholder3", "NamePlaceholder3"));
+        songs.add(new Song("PerformerPlaceholder4", "NamePlaceholder4"));
+        songs.add(new Song("PerformerPlaceholder5", "NamePlaceholder5"));
+        songs.add(new Song("PerformerPlaceholder6", "NamePlaceholder6"));
+        songs.add(new Song("PerformerPlaceholder7", "NamePlaceholder7"));
+        songs.add(new Song("PerformerPlaceholder8", "NamePlaceholder8"));
+        songs.add(new Song("PerformerPlaceholder9", "NamePlaceholder9"));
 
         //ArrayAdapter
-        SongAdapter adapter = new SongAdapter (this, songs);
+        SongAdapter adapter = new SongAdapter(this, songs);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
     }
