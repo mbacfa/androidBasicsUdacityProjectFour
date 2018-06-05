@@ -12,7 +12,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="@dimen/standard_padding"
-        android:layout_marginTop="@dimen/standard_padding"
         android:text="@string/genre_country" />
 
     <TextView
@@ -21,7 +20,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="@dimen/standard_padding"
-        android:layout_marginTop="@dimen/standard_padding"
         android:text="@string/genre_rock" />
 
     <TextView
@@ -31,7 +29,6 @@
         android:layout_alignParentStart="true"
         android:layout_below="@id/rock"
         android:layout_marginLeft="@dimen/standard_padding"
-        android:layout_marginTop="@dimen/standard_padding"
         android:text="@string/genre_pop" />
 
     <TextView
@@ -41,7 +38,6 @@
         android:layout_alignParentRight="true"
         android:layout_below="@id/rock"
         android:layout_marginRight="@dimen/standard_padding"
-        android:layout_marginTop="@dimen/standard_padding"
         android:text="@string/genre_folk" />
 
     <ImageView

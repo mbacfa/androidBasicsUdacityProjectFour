@@ -16,10 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RockActivity" android:label="@string/genre_rock" />
-        <activity android:name=".CountryActivity" android:label="@string/genre_country" />
-        <activity android:name=".PopActivity" android:label="@string/genre_pop"/>
-        <activity android:name=".FolkActivity" android:label="@string/genre_folk"/>
+        <activity
+            android:name=".RockActivity"
+            android:label="@string/genre_rock"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CountryActivity"
+            android:label="@string/genre_country"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PopActivity"
+            android:label="@string/genre_pop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FolkActivity"
+            android:label="@string/genre_folk"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
