@@ -1,5 +1,6 @@
 package com.example.android.androidbasicsudacityprojectfour;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
@@ -14,15 +15,13 @@ public class PopActivity extends AppCompatActivity {
         setContentView(R.layout.song_list);
         //Need to replace this with a loop and to put all names in strings
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("PerformerPlaceholder1", "NamePlaceholder1"));
-        songs.add(new Song("PerformerPlaceholder2", "NamePlaceholder2"));
-        songs.add(new Song("PerformerPlaceholder3", "NamePlaceholder3"));
-        songs.add(new Song("PerformerPlaceholder4", "NamePlaceholder4"));
-        songs.add(new Song("PerformerPlaceholder5", "NamePlaceholder5"));
-        songs.add(new Song("PerformerPlaceholder6", "NamePlaceholder6"));
-        songs.add(new Song("PerformerPlaceholder7", "NamePlaceholder7"));
-        songs.add(new Song("PerformerPlaceholder8", "NamePlaceholder8"));
-        songs.add(new Song("PerformerPlaceholder9", "NamePlaceholder9"));
+        Resources res = getResources();
+        String[] songPerformer = res.getStringArray(R.array.pop_singers);
+        String[] songName = res.getStringArray(R.array.pop_songs);
+        int numberOfSongs = songPerformer.length;
+        for (int i = 0; i < numberOfSongs; i++) {
+            songs.add(new Song(songPerformer[i], songName[i]));
+        }
 
         //ArrayAdapter
         SongAdapter adapter = new SongAdapter(this, songs);

@@ -4,4 +4,69 @@
     <string name="genre_pop">Pop</string>
     <string name="genre_country">Country</string>
     <string name="genre_folk">Folk</string>
+    <string name="genre_selection">What music do you feel like?</string>
+
+    <string-array name="country_singers">
+        <item name="singer_one">Alan Jackson</item>
+        <item name="singer_two">Ashley Monroe</item>
+        <item name="singer_three">Brad Paisley</item>
+        <item name="singer_four">Cam</item>
+        <item name="singer_five">Carrie Underwood</item>
+    </string-array>
+
+    <string-array name="country_songs">
+        <item name="song_one">Remember when</item>
+        <item name="song_two">Hands on you</item>
+        <item name="song_three">Remind me</item>
+        <item name="song_four">Burning house</item>
+        <item name="song_five">Blown away</item>
+    </string-array>
+
+    <string-array name="folk_singers">
+        <item name="singer_one">Bob Dylan</item>
+        <item name="singer_two">Joan Baez</item>
+        <item name="singer_three">Leonard Cohen</item>
+        <item name="singer_four">Cat Stevens</item>
+        <item name="singer_five">Pete Seeger</item>
+    </string-array>
+
+    <string-array name="folk_songs">
+        <item name="song_one">Forever young</item>
+        <item name="song_two">Donna donna</item>
+        <item name="song_three">Suzanne</item>
+        <item name="song_four">I love my dog</item>
+        <item name="song_five">Little boxes</item>
+    </string-array>
+
+    <string-array name="pop_singers">
+        <item name="singer_one">Rihanna</item>
+        <item name="singer_two">Lady Gaga</item>
+        <item name="singer_three">Adele</item>
+        <item name="singer_four">Katy Perry</item>
+        <item name="singer_five">Beyonce</item>
+    </string-array>
+
+    <string-array name="pop_songs">
+        <item name="song_one">Lemon</item>
+        <item name="song_two">Just dance</item>
+        <item name="song_three">Hello</item>
+        <item name="song_four">Hey hey hey</item>
+        <item name="song_five">Listen</item>
+    </string-array>
+
+    <string-array name="rock_singers">
+        <item name="singer_one">Elvis Presley</item>
+        <item name="singer_two">Kurt Cobain</item>
+        <item name="singer_three">Bono</item>
+        <item name="singer_four">Freddy Mercury</item>
+        <item name="singer_five">Mick Jagger</item>
+    </string-array>
+
+    <string-array name="rock_songs">
+        <item name="song_one">Burning love</item>
+        <item name="song_two">About a girl</item>
+        <item name="song_three">Pride</item>
+        <item name="song_four">The golden boy</item>
+        <item name="song_five">Sweet hing</item>
+    </string-array>
 </resources>
