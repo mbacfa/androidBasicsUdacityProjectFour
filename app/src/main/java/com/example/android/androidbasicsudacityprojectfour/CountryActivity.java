@@ -19,7 +19,7 @@ public class CountryActivity extends AppCompatActivity {
         String[] songName = res.getStringArray(R.array.country_songs);
         int numberOfSongs = songPerformer.length;
         for (int i = 0; i < numberOfSongs; i++) {
-            songs.add(new Song(songPerformer[i], songName[i]));
+            songs.add(new Song(songPerformer[i], songName[i], R.drawable.ic_play));
         }
 
         //ArrayAdapter

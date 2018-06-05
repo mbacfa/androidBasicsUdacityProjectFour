@@ -6,9 +6,12 @@ public class Song {
 
     private String mSongName;
 
-    public Song (String songPerformer, String songName) {
+    private int mImageResourceId;
+
+    public Song(String songPerformer, String songName, int imageResourceId) {
         mSongPerformer = songPerformer;
         mSongName = songName;
+        mImageResourceId = imageResourceId;
     }
 
     public String getName() {
@@ -17,5 +20,9 @@ public class Song {
 
     public String getPerformer() {
         return mSongPerformer;
+    }
+
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 }

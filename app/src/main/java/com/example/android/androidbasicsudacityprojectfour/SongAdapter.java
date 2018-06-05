@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -30,6 +31,8 @@ public class SongAdapter extends ArrayAdapter<Song> {
         songPerformer.setText(currentSong.getPerformer());
         TextView songName = (TextView) listItemView.findViewById(R.id.song_name_text_view);
         songName.setText(currentSong.getName());
+        ImageView iconView = (ImageView) listItemView.findViewById(R.id.play_icon);
+        iconView.setImageResource(currentSong.getImageResourceId());
         return listItemView;
     }
 }

@@ -13,14 +13,13 @@ public class FolkActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
-        //Need to replace this with a loop and to put all names in strings
         ArrayList<Song> songs = new ArrayList<Song>();
         Resources res = getResources();
         String[] songPerformer = res.getStringArray(R.array.folk_singers);
         String[] songName = res.getStringArray(R.array.folk_songs);
         int numberOfSongs = songPerformer.length;
         for (int i = 0; i < numberOfSongs; i++) {
-            songs.add(new Song(songPerformer[i], songName[i]));
+            songs.add(new Song(songPerformer[i], songName[i], R.drawable.ic_play));
         }
 
         //ArrayAdapter

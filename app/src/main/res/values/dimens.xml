@@ -5,4 +5,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="standard_padding">16dp</dimen>
     <dimen name="genre_item_width">148dp</dimen>
+    <dimen name="play_icon">25dp</dimen>
 </resources>
